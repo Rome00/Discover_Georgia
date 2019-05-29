@@ -1,0 +1,249 @@
+@import "./global";
+@import "./variables";
+
+/* header css */
+.body-wrapper {
+  overflow-x: hidden;
+}
+
+.top-bar {
+  background: $Blue;
+  z-index: 999;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  transition: all 0.7s ease 0s;
+
+  .phone {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    background-image: url("../images/phone.png");
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  ul {
+    height: inherit;
+    list-style: none;
+
+    .bar-section-lines {
+      height: 20px;
+      width: 2px;
+      background: $Green;
+      padding: 0;
+    }
+
+    li {
+      padding: 0 5px;
+      color: $White;
+      cursor: pointer;
+
+      &:first-child {
+        font-family: "Oswald", sans-serif;
+      }
+
+      a {
+        color: $White;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  height: 50px;
+
+  img {
+    height: 100%;
+  }
+}
+
+nav .navbar-toggler {
+  height: 32px;
+  width: 43px;
+  padding: 0 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  background: $Orange;
+  transition: height 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item :hover::after {
+  height: 5px;
+  transition: height 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: $Dark-Blue;
+  transition: color 0.3s ease-in;
+}
+
+nav .navbar-nav .active>.nav-link,
+nav .navbar-nav .nav-link:hover {
+  color: $Green;
+}
+
+header {
+  position: relative;
+
+  .main-bar-positioin {
+    position: static;
+
+    .navbar {
+      position: static;
+    }
+  }
+}
+
+header:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, green, rgb(208, 255, 0));
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: smoothScroll 0.8s forwards;
+  z-index: 9999;
+}
+
+nav .open-md-nav {
+  transform: translateX(0%);
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title del {
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.m-center {
+  display: flex;
+  justify-content: center;
+}
+
+.c-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hv-blue-o {
+  text-decoration: none !important;
+}
+
+.hv-blue-o:hover {
+  background: $Blue !important;
+  color: $White !important;
+  font-weight: 500;
+}
+
+.color-orange-1 {
+  color: $Orange;
+}
+
+.hotel-item .title h4 {
+  font-size: 1.2rem;
+}
+
+.hotel-item.style-5 .title h4 {
+  letter-spacing: 2.2px;
+}
+
+.hotel-item .n-price {
+  font-size: 20px;
+}
+
+.top-bar li i {
+  font-size: 18px;
+}
+
+.top-bar li:nth-child(3) i {
+  transform: rotate(-40deg);
+}
+
+/* icon rotate */
+.hvr-icon-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+}
+
+.hvr-icon-grow-rotate .hvr-icon {
+  transform: translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-icon-grow-rotate:hover .hvr-icon,
+.hvr-icon-grow-rotate:focus .hvr-icon,
+.hvr-icon-grow-rotate:active .hvr-icon {
+  transform: scale(1.4) rotate(0deg);
+}
+
+/* Icon Bounce */
+.hvr-icon-bounce {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+}
+
+.hvr-icon-bounce .hvr-icon {
+  transform: translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-icon-bounce:hover .hvr-icon,
+.hvr-icon-bounce:focus .hvr-icon,
+.hvr-icon-bounce:active .hvr-icon {
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+@import "./responsive";
+@import "./keframes";
