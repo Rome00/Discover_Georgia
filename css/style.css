@@ -145,8 +145,8 @@ header .top-bar-positioin {
 .top-bar {
   background: #1593d0;
   z-index: 999;
-  border-bottom-right-radius: 13px;
-  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   -webkit-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s;
 }
