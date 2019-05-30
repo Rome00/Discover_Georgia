@@ -531,10 +531,6 @@ footer a:hover {
   color: #1593d0;
 }
 
-.footer-share a:last-child:hover {
-  color: rgba(252, 29, 29, 0.8);
-}
-
 .bg-dark.type-2 .f_news .f_news-img {
   width: 110px;
 }
