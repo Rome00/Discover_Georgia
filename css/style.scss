@@ -345,6 +345,18 @@ footer a:hover {
   color: $Blue;
 }
 
+.footer-block {
+  position: relative;
+  width: 100%;
+  margin-bottom: 45px;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+footer.type-2 .footer-link {
+  padding-top: 20px;
+}
 
 .bg-dark.type-2 .f_news .f_news-img {
   width: 110px;
