@@ -155,7 +155,12 @@ h5 {
 #tours .tours::after {
   content: "";
   display: block;
-  border-bottom: 3px solid #8f8e89;
+  margin: auto;
+  height: 2px;
+  width: 80%;
+  border: 2px solid;
+  background: #8f8e89;
+  clip-path: polygon(50% 83%, 100% 55%, 50% 16%, 0 55%);
 }
 
 .title del {
