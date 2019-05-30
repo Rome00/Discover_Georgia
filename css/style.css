@@ -172,7 +172,7 @@ header .top-bar-positioin {
 .top-bar ul .bar-section-lines {
   height: 20px;
   width: 2px;
-  background: #008000;
+  background: #4CAF50;
   padding: 0;
 }
 
@@ -244,7 +244,7 @@ nav .navbar-toggler {
 
 nav .navbar-nav .active > .nav-link,
 nav .navbar-nav .nav-link:hover {
-  color: #008000;
+  color: #4CAF50;
 }
 
 header {
@@ -288,6 +288,17 @@ h3 {
 
 h5 {
   font-family: 'Open Sans', sans-serif;
+}
+
+#sale .second-title h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#tours .tours::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #8f8e89;
 }
 
 .title del {
@@ -355,6 +366,10 @@ h5 {
           transform: rotate(-40deg);
 }
 
+.price.green {
+  background: #4CAF50;
+}
+
 /* icon rotate */
 .hvr-icon-grow-rotate {
   display: inline-block;
@@ -370,7 +385,7 @@ h5 {
 .hvr-icon-grow-rotate .hvr-icon {
   background: white;
   padding: 3px 4px 4px 6px;
-  color: #008000;
+  color: #4CAF50;
   border-radius: 20px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -407,7 +422,7 @@ h5 {
 .hvr-icon-bounce .hvr-icon {
   background: white;
   padding: 3px 4px 3px 4px;
-  color: #008000;
+  color: #4CAF50;
   border-radius: 20px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -444,7 +459,7 @@ h5 {
 .hvr-icon-fade .hvr-icon {
   background: white;
   padding: 3px 3px 3px 3px;
-  color: #008000;
+  color: #4CAF50;
   border-radius: 20px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -474,7 +489,7 @@ h5 {
 .hvr-icon-fade-fb .hvr-icon {
   background: white;
   padding: 3px 4px 3px 4px;
-  color: #008000;
+  color: #4CAF50;
   border-radius: 20px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -496,17 +511,35 @@ footer a {
 
 footer a:hover {
   text-decoration: none;
-  color: #ff6600;
+  color: #1593d0;
 }
 
-#map {
-  width: 100%;
-  height: 350px;
-  background-color: grey;
+.date-f {
+  display: block;
+  color: #4CAF50;
+  font-size: 12px;
+  padding-bottom: 0px;
+}
+
+.footer-share a:hover {
+  color: #1593d0;
+}
+
+.footer-share a:last-child:hover {
+  color: rgba(252, 29, 29, 0.8);
+}
+
+.bg-dark.type-2 .f_news .f_news-img {
+  width: 110px;
+}
+
+.bg-dark.type-2 .f_news .f_news-content {
+  padding-top: 0px;
+  margin-left: 150px;
 }
 
 .color-green-title {
-  color: #008000;
+  color: #4CAF50;
 }
 
 .color-orange-title {
@@ -515,7 +548,6 @@ footer a:hover {
 
 .bg-dark.type-2 .logo-footer {
   margin-bottom: 30px;
-  width: 70%;
 }
 
 @media (max-width: 1200px) {
@@ -592,6 +624,13 @@ footer a:hover {
     -webkit-transform: rotate(45deg) translate(-4px, -6px);
             transform: rotate(45deg) translate(-4px, -6px);
     background: #ff0000;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-dark.type-2 .logo-footer {
+    margin-bottom: 30px;
+    width: 70%;
   }
 }
 

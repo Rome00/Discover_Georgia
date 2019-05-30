@@ -92,7 +92,7 @@
             </div>
         </header>
         <!--? carusel -->
-        <section class="container-fluid full-slider no-padding">
+        <section class="container-fluid full-slider no-padding" id="main">
             <div class="slider fullscreen">
                 <ul class="slides">
                     <li>
@@ -143,13 +143,13 @@
             </div>
         </section>
         <!--* sale -->
-        <section class="main-wraper bg-grey-2 padd-90">
+        <section class="main-wraper bg-grey-2 padd-90" id="sale">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="second-title">
                             <h4 class="subtitle color-blue-2 underline">Latest Offers</h4>
-                            <h2>popular tours</h2>
+                            <h2 class="title-discr">Discover Georgia with Us</h2>
                         </div>
                     </div>
                 </div>
@@ -231,9 +231,9 @@
             </div>
         </section>
         <!--Todo Tours By Season-->
-        <section class="main-wraper padd-70 bg-aqua">
+        <section class="main-wraper padd-70 bg-aqua" id="tours">
             <!--! summer -->
-            <div class="container">
+            <div class="container tours">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="second-title">
@@ -332,7 +332,7 @@
                 </div>
             </div>
             <!--? Winter Tours -->
-            <div class="container">
+            <div class="container tours">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="second-title">
@@ -430,7 +430,7 @@
                 </div>
             </div>
             <!--Todo Autumn Tours -->
-            <div class="container">
+            <div class="container tours">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="second-title">
@@ -630,9 +630,9 @@
         <footer class="bg-dark type-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-4 col-md-3 col-sm-12">
                         <div class="footer-block">
-                            <img src="images/logo.png" alt="descover georgia logo" class="logo-footer">
+                            <img src="images/logo.png" alt="descover georgia logo" class="logo-footer img-fluid">
                             <div class="f_text color-grey-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore magna aliqua. Ut aliquip ex ea commodo
                                 consequat.</div>
@@ -642,45 +642,79 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <h6 class="pb-3">Finde Us</h6>
-                        <div id="map"></div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-4 col-md-5 col-sm-12">
                         <div class="footer-block">
-                            <h6>Contact Info</h6>
-                            <div class="contact-info">
-                                <div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>Aenean
-                                        vulputate porttitor</span></div>
-                                <div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a
-                                        href="tel:93123456789">+93 123 456 789</a></div>
-                                <div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a
-                                        href="mailto:">info@discover-georgia.co.il </a>
+                            <h6>Travel News</h6>
+                            <div class="f_news clearfix">
+                                <a class="f_news-img black-hover" href="#">
+                                    <img class="img-fluid" src="images/summer-tour-1.jpg" alt="martivili">
+                                    <div class="tour-layer delay-1"></div>
+                                </a>
+                                <div class="f_news-content">
+                                    <a class="f_news-tilte color-white" href="#">amazing place</a>
+                                    <span class="date-f">Mar 18, 2015</span>
+                                    <a href="#" class="r-more">read more</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-link bg-black">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="copyright">
-                                <span>© 2019 All rights reserved. Discover_Georgia</span>
+                            <div class="f_news clearfix">
+                                <a class="f_news-img black-hover" href="#">
+                                    <img class="img-fluid" src="images/summer-tour-2.jpg" alt="svaneti">
+                                    <div class=" tour-layer delay-1"></div>
+                            </a>
+                            <div class="f_news-content">
+                                <a class="f_news-tilte color-white" href="#">amazing place</a>
+                                <span class="date-f">Mar 18, 2015</span>
+                                <a href="#" class="r-more">read more</a>
                             </div>
-                            <ul>
-                                <li><a class="link-aqua" href="#">Home</a></li>
-                                <li><a class="link-aqua" href="#">Tours</a></li>
-                                <li><a class="link-aqua" href="#">About Us</a></li>
-                                <li><a class="link-aqua" href="#">News</a></li>
-                                <li><a class="link-aqua" href="#">Contact</a></li>
-                            </ul>
+                        </div>
+                        <div class="f_news clearfix">
+                            <a class="f_news-img black-hover" href="#">
+                                <img class="img-fluid" src="images/summer-tour-3.jpg" alt="">
+                                <div class="tour-layer delay-1"></div>
+                            </a>
+                            <div class="f_news-content">
+                                <a class="f_news-tilte color-white" href="#">amazing place</a>
+                                <span class="date-f">Mar 18, 2015</span>
+                                <a href="#" class="r-more">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="footer-block">
+                        <h6>Contact Info</h6>
+                        <div class="contact-info">
+                            <div class="contact-line color-grey-3"><i class="fa fa-map-marker"></i><span>Aenean
+                                    vulputate porttitor</span></div>
+                            <div class="contact-line color-grey-3"><i class="fa fa-phone"></i><a
+                                    href="tel:93123456789">+93 123 456 789</a></div>
+                            <div class="contact-line color-grey-3"><i class="fa fa-envelope-o"></i><a
+                                    href="mailto:">info@discover-georgia.co.il </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+    </div>
+    <div class="footer-link bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        <span>© 2019 All rights reserved. Discover_Georgia</span>
+                    </div>
+                    <ul>
+                        <li><a class="link-aqua" href="#">Home</a></li>
+                        <li><a class="link-aqua" href="#">Tours</a></li>
+                        <li><a class="link-aqua" href="#">About Us</a></li>
+                        <li><a class="link-aqua" href="#">News</a></li>
+                        <li><a class="link-aqua" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -688,30 +722,6 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9F_nKivS7VMmuWxhuQwqYHOish3i3jkY&callback=initMap">
-    </script>
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // The location of Uluru
-            var uluru = {
-                lat: 41.693378,
-                lng: 44.801477
-            };
-            // The map, centered at Uluru
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                    zoom: 15,
-                    center: uluru
-                });
-            // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-            });
-        }
     </script>
     <script src="js/materialize.min.js"></script>
     <script>

@@ -706,7 +706,7 @@ strong {
   text-align: center;
 }
 
-.tt {
+9 .tt {
   text-transform: uppercase;
 }
 
@@ -4575,8 +4575,8 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 .second-title {
   position: relative;
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .second-title h2 {
@@ -4802,7 +4802,7 @@ nav li.type-4 .dropmenu .fa-chevron-right {
   content: '';
   width: 100%;
   background: #FFF;
-  height: 5px;
+  height: 2px;
   position: relative;
   display: block;
   float: none;
@@ -6054,10 +6054,6 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 
 .price.red {
   background: rgba(252, 29, 29, 0.8);
-}
-
-.price.green {
-  background: rgba(0, 200, 38, 0.8);
 }
 
 .arrows-3 .offers-arrow:hover {
@@ -17100,9 +17096,7 @@ header.menu-3.hovered nav .dropmenu a>span {
   margin: 0px 20px 0px 0px;
 }
 
-.footer-share a:hover {
-  color: #ff6600;
-}
+
 
 .bg-dark.type-2 .footer-block {
   padding: 0px;
@@ -17112,13 +17106,6 @@ header.menu-3.hovered nav .dropmenu a>span {
   display: none;
 }
 
-.date-f {
-  display: block;
-  color: #ff6600;
-  font-size: 12px;
-  padding-bottom: 3px;
-}
-
 .bg-dark.type-2 .f_news .f_news-desc {
   font-size: 11px;
   line-height: 14px;
@@ -17126,11 +17113,11 @@ header.menu-3.hovered nav .dropmenu a>span {
 
 .bg-dark.type-2 .f_news .f_news-content {
   padding-top: 0px;
-  margin-left: 95px;
+  margin-left: 120px;
 }
 
 .bg-dark.type-2 .f_news .f_news-tilte {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .bg-dark.type-2 .f_news {
@@ -17141,10 +17128,6 @@ header.menu-3.hovered nav .dropmenu a>span {
   font-size: 12px;
   font-style: italic;
   color: #ccc;
-}
-
-.bg-dark.type-2 .f_news .f_news-img {
-  width: 80px;
 }
 
 .tags-b {
@@ -17190,7 +17173,7 @@ header.menu-3.hovered nav .dropmenu a>span {
 }
 
 .bg-dark.type-2 .contact-info i {
-  color: #ff6600;
+  color: #1593d0;
   display: inline-block;
   margin-right: 10px;
 }
@@ -20163,9 +20146,9 @@ body[data-color="theme-1"] .bg-dark.type-2 .contact-info i {
   color: #ff6600;
 }
 
-body[data-color="theme-1"] .footer-share a:hover {
+/* body[data-color="theme-1"] .footer-share a:hover {
   color: #ff6600;
-}
+} */
 
 body[data-color="theme-1"] .tags-b:before {
   background: #ff6600;
