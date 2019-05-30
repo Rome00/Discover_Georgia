@@ -7,6 +7,10 @@
   margin-bottom: 0;
 }
 
+.bottom-mr {
+  margin-bottom: 0.25rem;
+}
+
 .mt-n1 {
   margin-top: -0.25rem !important;
 }
@@ -98,6 +102,24 @@ header .top-bar-positioin {
   padding-bottom: 120px;
 }
 
+.mar-5-0 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mar-5 {
+  margin-right: 5px;
+}
+
+.mar-20-0 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mar-15 {
+  margin-right: 15px;
+}
+
 .mar-30 {
   margin-top: 30px;
 }
@@ -144,6 +166,7 @@ header .top-bar-positioin {
 .top-bar ul {
   height: inherit;
   list-style: none;
+  height: 40px;
 }
 
 .top-bar ul .bar-section-lines {
@@ -345,6 +368,10 @@ h5 {
 }
 
 .hvr-icon-grow-rotate .hvr-icon {
+  background: white;
+  padding: 3px 4px 4px 6px;
+  color: #008000;
+  border-radius: 20px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
@@ -360,8 +387,9 @@ h5 {
 .hvr-icon-grow-rotate:hover .hvr-icon,
 .hvr-icon-grow-rotate:focus .hvr-icon,
 .hvr-icon-grow-rotate:active .hvr-icon {
-  -webkit-transform: scale(1.4) rotate(0deg);
-          transform: scale(1.4) rotate(0deg);
+  -webkit-transform: scale(1.1) rotate(0deg);
+          transform: scale(1.1) rotate(0deg);
+  color: coral;
 }
 
 /* Icon Bounce */
@@ -377,6 +405,10 @@ h5 {
 }
 
 .hvr-icon-bounce .hvr-icon {
+  background: white;
+  padding: 3px 4px 3px 4px;
+  color: #008000;
+  border-radius: 20px;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-transition-duration: 0.3s;
@@ -396,6 +428,94 @@ h5 {
           transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
           transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  color: coral;
+}
+
+/* Icon Fade */
+.hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-icon-fade .hvr-icon {
+  background: white;
+  padding: 3px 4px 3px 4px;
+  color: #008000;
+  border-radius: 20px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.hvr-icon-fade:hover .hvr-icon,
+.hvr-icon-fade:focus .hvr-icon,
+.hvr-icon-fade:active .hvr-icon {
+  color: #ff0000;
+}
+
+/* Icon Fade for FB*/
+.hvr-icon-fade-fb {
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-icon-fade-fb .hvr-icon {
+  background: white;
+  padding: 4px 5px 4px 5px;
+  color: #008000;
+  border-radius: 20px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.hvr-icon-fade-fb:hover .hvr-icon,
+.hvr-icon-fade-fb:focus .hvr-icon,
+.hvr-icon-fade-fb:active .hvr-icon {
+  color: #4267b2;
+}
+
+footer a {
+  color: #bebebe;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #ff6600;
+}
+
+#map {
+  width: 100%;
+  height: 350px;
+  background-color: grey;
+}
+
+.color-green-title {
+  color: #008000;
+}
+
+.color-orange-title {
+  color: #EF3C28;
+}
+
+.bg-dark.type-2 .logo-footer {
+  margin-bottom: 30px;
+  width: 70%;
 }
 
 @media (max-width: 1200px) {

@@ -12549,9 +12549,7 @@ footer.bg-white input:-ms-input-placeholder {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 14 - FOOTER  TYPE-2*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-footer.type-2 .footer-block h6 {
-  padding-bottom: 24px;
-}
+
 
 footer.type-2 .footer-link {
   padding: 20px 0px 20px;
@@ -17085,10 +17083,6 @@ header.menu-3.hovered nav .dropmenu a>span {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-}
-
-.bg-dark.type-2 .logo-footer {
-  margin-bottom: 30px;
 }
 
 .bg-dark.type-2 .f_text {
