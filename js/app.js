@@ -23,6 +23,5 @@ burger.addEventListener("click", () => {
     } else {
         navBox.classList.toggle("open-sm-nav");
     }
-    console.log(header.clientWidth);
 });
 

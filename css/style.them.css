@@ -706,7 +706,7 @@ strong {
   text-align: center;
 }
 
-9 .tt {
+.tt {
   text-transform: uppercase;
 }
 
@@ -5500,7 +5500,7 @@ nav li.type-4 .dropmenu .fa-chevron-right {
   padding: 10px 20px;
   color: #fff;
   position: absolute;
-  left: 0px;
+  right: 0px;
   top: 0px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -5512,8 +5512,8 @@ nav li.type-4 .dropmenu .fa-chevron-right {
   padding: 8px 17px;
   color: #FFF;
   position: absolute;
-  left: 24px;
-  top: 30px;
+  right: 24px;
+  top: 20px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
@@ -10225,7 +10225,7 @@ ul.dot-blue-2 li:before {
   content: '•';
   display: inline-block;
   position: relative;
-  left: -10px;
+  right: -10px;
   color: #2d3e50;
 }
 
@@ -16575,7 +16575,7 @@ header.menu-3.hovered nav .dropmenu a>span {
   float: left;
   font-size: 22px;
   color: #fff;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 0px 0px 20px;
 }
 
 
@@ -16657,7 +16657,7 @@ header.menu-3.hovered nav .dropmenu a>span {
 .bg-dark.type-2 .contact-info i {
   color: #1593d0;
   display: inline-block;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bg-dark.type-2 .contact-info span,
