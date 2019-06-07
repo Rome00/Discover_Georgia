@@ -87,7 +87,7 @@
       font-size: 12px;
 
       &:first-child {
-        font-family: 'Open Sans', sans-serif;
+        font-family: "Open Sans", sans-serif;
       }
 
       &:last-of-type {
@@ -107,8 +107,8 @@
 }
 
 .navbar-brand {
-  height: 50px;
-  margin-right: 30PX;
+  height: 65px;
+  margin-right: 60px;
 
   img {
     height: 100%;
@@ -193,11 +193,60 @@ h3 {
 }
 
 h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-form {
+  background: transparent;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  position: absolute;
+
+  form {
+    padding: 5px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+    background: rgba($Black, $alpha: 0.4);
+
+    label {
+      margin-right: 10px;
+    }
+
+    .form-row input {
+      height: 2rem;
+
+      &:focus {
+        border-bottom: 1px solid$Green !important;
+        box-shadow: 0 1px 0 0$Green !important;
+        color: $White;
+      }
+    }
+
+    button {
+      background: $Green;
+      border: 2px solid $Green;
+      transition: all 0.3s linear;
+      font-family: "Open Sans", sans-serif;
+      color: $Black;
+      font-weight: 500;
+      outline: none;
+      box-shadow: none;
+      text-transform: capitalize;
+
+      &:hover {
+        background: transparent;
+        color: $Green;
+      }
+    }
+  }
 }
 
 #carousel {
   margin-top: -125px;
+  position: relative;
 }
 
 #sale .second-title h2 {
@@ -274,8 +323,6 @@ h5 {
   background: $Green;
 }
 
-
-
 footer a {
   color: #bebebe;
 }
@@ -323,7 +370,7 @@ footer.type-2 .footer-link {
 }
 
 .color-orange-title {
-  color: #EF3C28
+  color: #ef3c28;
 }
 
 .bg-dark.type-2 .logo-footer {
@@ -391,6 +438,22 @@ footer.type-2 .footer-link {
   display: block;
 }
 
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+  margin: 0 auto;
+  width: 95%;
+}
 
 @import "./responsive";
 @import "./keframes";
