@@ -4716,7 +4716,7 @@ html {
     font-size: 15px;
   }
 }
-
+.hotel-item .c-button
 h1,
 h2,
 h3,
@@ -8626,7 +8626,7 @@ input[type=range]::-ms-thumb {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 600px;
   width: 100%;
 }
 
@@ -8670,9 +8670,9 @@ input[type=range]::-ms-thumb {
 .slider .slides li .caption {
   color: #fff;
   position: absolute;
-  top: 15%;
-  left: 15%;
-  width: 70%;
+  top: 30%;
+  left: 25%;
+  width: 50%;
   opacity: 0;
 }
 

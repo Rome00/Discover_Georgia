@@ -151,48 +151,100 @@ header .top-bar-positioin {
   overflow-x: hidden;
 }
 
+.full-slider {
+  margin-top: -125px;
+}
+
 .top-bar {
-  background: #1593d0;
+  background: rgba(0, 0, 0, 0.5);
   z-index: 999;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
   -webkit-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s;
 }
 
-.top-bar .phone {
+.top-bar::after {
+  content: "";
   display: block;
-  position: absolute;
-  left: 10px;
-  top: 6px;
-  background-image: url("../images/phone.png");
-  height: 20px;
-  width: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.25);
+}
+
+.top-bar .facebook-icon-sm {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-left: 0px;
+}
+
+.top-bar .facebook-icon-sm:hover {
+  background: #4267b2;
+}
+
+.top-bar .youtube-icon-sm {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-left: 0px;
+}
+
+.top-bar .youtube-icon-sm:hover {
+  background: #ff0000;
 }
 
 .top-bar ul {
   height: inherit;
   list-style: none;
-  height: 40px;
 }
 
 .top-bar ul .bar-section-lines {
-  height: 20px;
-  width: 2px;
-  background: #4CAF50;
+  height: 15px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.25);
   padding: 0;
+}
+
+.top-bar ul .bar-fill-lines {
+  height: 30px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 0;
+  margin-left: 0px;
+}
+
+.top-bar ul .facebook-icon {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-top: -2px;
+  margin-left: 0px;
+}
+
+.top-bar ul .facebook-icon:hover {
+  background: #4267b2;
+}
+
+.top-bar ul .youtube-icon {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  margin-top: -2px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.top-bar ul .youtube-icon:hover {
+  background: #ff0000;
 }
 
 .top-bar ul li {
   padding: 0 5px;
   color: #fff;
+  margin-left: 15px;
   cursor: pointer;
+  font-size: 12px;
 }
 
 .top-bar ul li:first-child {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar ul li:last-of-type {
+  margin-left: 40px;
 }
 
 .top-bar ul li a {
@@ -200,8 +252,13 @@ header .top-bar-positioin {
   text-decoration: none;
 }
 
+.nav-menu-bg {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 .navbar-brand {
   height: 50px;
+  margin-right: 30PX;
 }
 
 .navbar-brand img {
@@ -229,10 +286,6 @@ nav .navbar-toggler {
   transition: height 0.3s ease-in-out;
 }
 
-.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
-  padding-right: 0;
-}
-
 .navbar-expand-lg .navbar-nav .nav-item :hover::after {
   height: 5px;
   -webkit-transition: height 0.3s ease-in-out;
@@ -243,10 +296,10 @@ nav .navbar-toggler {
   padding-right: 20px;
   padding-left: 20px;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color: #1593d0;
+  color: #fff;
   -webkit-transition: color 0.3s ease-in;
   transition: color 0.3s ease-in;
 }
@@ -297,6 +350,10 @@ h3 {
 
 h5 {
   font-family: 'Open Sans', sans-serif;
+}
+
+#carousel {
+  margin-top: -125px;
 }
 
 #sale .second-title h2 {
@@ -383,141 +440,6 @@ h5 {
 
 .price.green {
   background: #4CAF50;
-}
-
-/* icon rotate */
-.hvr-icon-grow-rotate {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-}
-
-.hvr-icon-grow-rotate .hvr-icon {
-  background: white;
-  padding: 3px 4px 4px 6px;
-  color: #4CAF50;
-  border-radius: 20px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-
-.hvr-icon-grow-rotate:hover .hvr-icon,
-.hvr-icon-grow-rotate:focus .hvr-icon,
-.hvr-icon-grow-rotate:active .hvr-icon {
-  -webkit-transform: scale(1.1) rotate(0deg);
-          transform: scale(1.1) rotate(0deg);
-  color: coral;
-}
-
-/* Icon Bounce */
-.hvr-icon-bounce {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-}
-
-.hvr-icon-bounce .hvr-icon {
-  background: white;
-  padding: 3px 4px 3px 4px;
-  color: #4CAF50;
-  border-radius: 20px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-}
-
-.hvr-icon-bounce:hover .hvr-icon,
-.hvr-icon-bounce:focus .hvr-icon,
-.hvr-icon-bounce:active .hvr-icon {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-          transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  color: coral;
-}
-
-/* Icon Fade */
-.hvr-icon-fade {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.hvr-icon-fade .hvr-icon {
-  background: white;
-  padding: 3px 3px 3px 3px;
-  color: #4CAF50;
-  border-radius: 20px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition-property: color;
-  transition-property: color;
-}
-
-.hvr-icon-fade:hover .hvr-icon,
-.hvr-icon-fade:focus .hvr-icon,
-.hvr-icon-fade:active .hvr-icon {
-  color: #ff0000;
-}
-
-/* Icon Fade for FB*/
-.hvr-icon-fade-fb {
-  border-radius: 50px;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.hvr-icon-fade-fb .hvr-icon {
-  background: white;
-  padding: 3px 4px 3px 4px;
-  color: #4CAF50;
-  border-radius: 20px;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-  -webkit-transition-property: color;
-  transition-property: color;
-}
-
-.hvr-icon-fade-fb:hover .hvr-icon,
-.hvr-icon-fade-fb:focus .hvr-icon,
-.hvr-icon-fade-fb:active .hvr-icon {
-  color: #4267b2;
 }
 
 footer a {
@@ -647,10 +569,6 @@ footer.type-2 .footer-link {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .hotel-item .c-button {
-    margin-bottom: 0px;
-    width: 100%;
-  }
 }
 
 @media (max-width: 992px) {
@@ -661,14 +579,14 @@ footer.type-2 .footer-link {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     position: absolute;
-    top: 114px;
+    top: 97px;
     left: 0%;
-    height: calc(100vh - 114px);
+    height: calc(100vh - 98px);
     width: 45%;
     z-index: 555;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
-    background: #f8f8f8;
+    background: rgba(0, 0, 0, 0.9);
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
@@ -690,7 +608,7 @@ footer.type-2 .footer-link {
   .navbar-toggler div {
     height: 3px;
     width: 25px;
-    background: #008000;
+    background: #fff;
     margin: 2px;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -735,7 +653,17 @@ footer.type-2 .footer-link {
 @media (min-width: 768px) {
   .bg-dark.type-2 .logo-footer {
     margin-bottom: 30px;
-    width: 70%;
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .top-bar ul li {
+    margin-left: 10px;
+  }
+  .hotel-item .c-button {
+    margin-bottom: 0px;
+    width: 100%;
   }
 }
 

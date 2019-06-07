@@ -1,4 +1,4 @@
-@charset "UTF-8";
+hv-blue-2-o@charset "UTF-8";
 /*STYLE.CSS*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*This is main CSS file that contains custom style rules used in this template*/
@@ -12310,7 +12310,6 @@ footer.type-2 .copyright {
 
   .hotel-item .c-button {
     display: block;
-    margin: 0 auto;
     float: none;
     margin-bottom: 15px;
   }

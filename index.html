@@ -29,42 +29,46 @@
 <body>
     <div class="body-wrapper">
         <!--! header -->
-        <header class="container-fluid bg-white no-padding">
-            <div class="container-fluid top-bar">
+        <header class="container-fluid no-padding">
+            <div class="container-fluid top-bar no-padding">
                 <div class="row no-bottom">
                     <div class="col-12">
-                        <div class="d-none d-sm-block ">
-                            <ul class="d-flex align-items-center justify-content-end no-padding no-bottom">
-                                <li class="mar-20-0 hvr-icon-bounce"><i class="mar-15 hvr-icon fas fa-envelope"></i><a
-                                        href="mailto:info@mas.ge">info@discover-georgia.co.il</a>
-                                </li>
-                                <li class="bar-section-lines"></li>
-                                <li class="mar-20-0 hvr-icon-grow-rotate"><i
-                                        class="hvr-icon mar-15 fas fa-phone-volume"></i><a href="tel:555555555">555
-                                        555
-                                        555</a></li>
-                                <li class="bar-section-lines"></li>
-                                <li class="mar-20-0 hvr-icon-fade">
-                                    <a href="https://www.youtube.com/channel/UCEKFMz4Fx3GYxJUQKIJNKbA?feature=watch"
-                                        target="_blank"><i class="hvr-icon fab fa-youtube"></i></a>
-                                </li>
-                                <li class="mar-5 hvr-icon-fade-fb">
-                                    <a href="https://www.facebook.com/Georgia.co.il/" target="_blank"><i
-                                            class="hvr-icon fab fa-facebook"></i></a>
-                                </li>
-                            </ul>
+                        <ul class="d-none d-sm-flex align-items-center justify-content-end no-bottom">
+                            <li>info@discover-georgia.co.il</li>
+                            <li class="bar-section-lines"></li>
+                            <li>tel: 555 55 55 55</li>
+                            <li class="bar-section-lines"></li>
+                            <li><img src="images/clock.png" alt="work time"> 8:00 - 19:00</li>
+                            <li class="facebook-icon"><a href="#"><img src="images/facebook.png"
+                                        alt="discover georgia facebook"></a></li>
+                            <li class="bar-fill-lines"></li>
+                            <li class="youtube-icon"><a href="#"><img src="images/youtube.png"
+                                        alt="discover georgia youtube"></a></li>
+                            <li class="bar-fill-lines"></li>
+                        </ul>
+                        <div class="row d-flex d-sm-none no-bottom">
+                            <div class="col-8 text-white text-center">info@discover-georgia.co.il</div>
+                            <div class="col-1 facebook-icon-sm  d-flex justify-content-center"><a href="#"><img
+                                        src="images/facebook.png" alt="discover georgia facebook"></a></div>
+                            <div class="col-1 youtube-icon-sm d-flex justify-content-center"><a href="#"><img
+                                        src="images/youtube.png" alt="discover georgia youtube"></a></div>
+                            <div class="col-6 mt-2 mb-2 text-white text-center">tel: 555 55 55 55</div>
+                            <div class="col-6 mt-2 mb-2 text-white text-center"><img src="images/clock.png"
+                                    alt="work time"> 8:00
+                                - 19:00
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container-fluid nav-menu-bg">
                 <div class="row no-bottom">
                     <div class="col-12 main-bar-positioin">
-                        <nav class="navbar navbar-expand-lg bg-white">
+                        <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand no-padding" href="#">
                                 <img src="images/logo.png" alt="logo">
                             </a>
-                            <div class="navbar-toggler mt-4 mr-1" role="button">
+                            <div class="navbar-toggler mr-1" role="button">
                                 <div class="navbar-icon1"></div>
                                 <div class="navbar-icon2"></div>
                                 <div class="navbar-icon3"></div>
@@ -92,11 +96,11 @@
             </div>
         </header>
         <!--? carusel -->
-        <section class="container-fluid full-slider no-padding" id="main">
+        <section class="container-fluid full-slider no-padding" id="carousel">
             <div class="slider fullscreen">
                 <ul class="slides">
                     <li>
-                        <img src="images/tbilisi.jpg" alt="tbilisi">
+                        <img src="images/slider/1.jpg" alt="georgia tours">
                         <!-- random image -->
                         <div class="caption center-align mt-5">
                             <h3>This is our big Tagline!</h3>
@@ -107,7 +111,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="images/tbilisi-2.jpg" alt="tbilisi">
+                        <img src="images/slider/2.jpg" alt="georgia tours">
                         <!-- random image -->
                         <div class="caption center-align mt-5">
                             <h3>Left Aligned Caption</h3>
@@ -118,7 +122,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="images/wine.jpg" alt="winery">
+                        <img src="images/slider/3.jpg" alt="georgia tours">
                         <!-- random image -->
                         <div class="caption center-align mt-5">
                             <h3>Right Aligned Caption</h3>
@@ -129,7 +133,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="images/sea.jpg" alt="sea batumi">
+                        <img src="images/slider/4.jpg" alt="georgia tours">
                         <!-- random image -->
                         <div class="caption center-align mt-5">
                             <h3>This is our big Tagline!</h3>
@@ -154,10 +158,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-1.jpg" alt="summer tour sale">
+                                <img src="images/tours/summer-tour-1.jpg" alt="summer tour sale">
                                 <div class="price price-s-2 red tt">hot price</div>
                             </div>
                             <div class="title">
@@ -167,8 +171,8 @@
                                     pulvinar.
                                     Nunc
                                     cursus libero purus ac congue arcu.</p>
-                                <div class="d-flex justify-content-between align-items-center flex-xl-row
-                                    flex-column-reverse">
+                                <div class="d-flex justify-content-between align-items-center flex-md-row
+                                flex-column-reverse">
                                     <a href="./tours.html" class="c-button bg-blue-2 hv-blue-2-o">read more</a>
                                     <div
                                         class="d-flex justify-content-between align-items-center mt-n3 mb-2 mt-xl-0 mb-xl-0">
@@ -179,35 +183,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/sea.jpg" alt="sea tour sale">
-                                <div class="price price-s-2 red tt">hot price</div>
-                            </div>
-                            <div class="title">
-                                <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
-                                <h4><b>tours in Georgia</b></h4>
-                                <p class="f-14 pt-3">Nunc cursus libero purus ac congue arcu cur sus ut sed vitae
-                                    pulvinar.
-                                    Nunc
-                                    cursus libero purus ac congue arcu.</p>
-                                <div class="d-flex justify-content-between align-items-center flex-xl-row
-                                    flex-column-reverse">
-                                    <a href="./tours.html" class="c-button bg-blue-2 hv-blue-2-o">read more</a>
-                                    <div class="d-flex justify-content-between align-items-center mt-n3 mb-2 mt-xl-0
-                                        mb-xl-0">
-                                        <div class="c-price no-bottom  pr-3"><del>$450</del></div>
-                                        <div class="c-price no-bottom ">$300</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4">
-                        <div class="hotel-item style-5">
-                            <div class="radius-top">
-                                <img src="images/summer-tour-2.jpg" alt="mountaint tour sale">
+                                <img src="images/tours/summer-tour-2.jpg" alt="mountaint tour sale">
                                 <div class="price price-s-2 red tt">hot price</div>
                             </div>
                             <div class="title">
@@ -215,8 +194,8 @@
                                 <h4><b>tours in Georgia</b></h4>
                                 <p class="f-14 pt-3">Nunc cursus libero purus ac congue arcu cur sus ut sed vitae
                                     pulvinar. Nunc cursus libero purus ac congue arcu.</p>
-                                <div class="d-flex justify-content-between align-items-center flex-xl-row
-                                    flex-column-reverse">
+                                <div class="d-flex justify-content-between align-items-center flex-md-row
+                                flex-column-reverse">
                                     <a href="./tours.html" class="c-button bg-blue-2 hv-blue-2-o">read more</a>
                                     <div
                                         class="d-flex justify-content-between align-items-center mt-n3 mb-2 mt-xl-0 mb-xl-0">
@@ -246,7 +225,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-1.jpg" alt="martvili canion">
+                                <img src="images/tours/summer-tour-1.jpg" alt="martvili canion">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -268,7 +247,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-sm-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-2.jpg" alt="svaneti">
+                                <img src="images/tours/summer-tour-2.jpg" alt="svaneti">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -290,7 +269,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/sea.jpg" alt="adjara">
+                                <img src="images/tours/sea.jpg" alt="adjara">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -311,7 +290,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-3.jpg" alt="yazbegi">
+                                <img src="images/tours/summer-tour-3.jpg" alt="yazbegi">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -344,7 +323,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-4.jpg" alt="bakuriani">
+                                <img src="images/tours/summer-tour-4.jpg" alt="bakuriani">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -366,7 +345,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-sm-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-3-winter.jpg" alt="yazbegi">
+                                <img src="images/tours/summer-tour-3-winter.jpg" alt="yazbegi">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -388,7 +367,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-5.jpg" alt="svaneti">
+                                <img src="images/tours/summer-tour-5.jpg" alt="svaneti">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -409,7 +388,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/wine.jpg" alt="winery">
+                                <img src="images/tours/wine.jpg" alt="winery">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -442,7 +421,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-4.jpg" alt="bakuriani">
+                                <img src="images/tours/summer-tour-4.jpg" alt="bakuriani">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -456,7 +435,7 @@
                                     Nunc
                                     cursus libero purus ac congue arcu.</p>
                                 <div class="m-center">
-                                    <a href="./tours.html" class="c-button bg-blue-2 hv-blue-2-o">read more</a>
+                                    <a href="images/tours/tours.html" class="c-button bg-blue-2 hv-blue-2-o">read more</a>
                                 </div>
                             </div>
                         </div>
@@ -464,7 +443,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-sm-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-3-winter.jpg" alt="yazbegi">
+                                <img src="images/tours/summer-tour-3-winter.jpg" alt="yazbegi">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -486,7 +465,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-5.jpg" alt="svaneti">
+                                <img src="images/tours/summer-tour-5.jpg" alt="svaneti">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -507,7 +486,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/wine.jpg" alt="winery">
+                                <img src="images/tours/wine.jpg" alt="winery">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -540,7 +519,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-4.jpg" alt="bakuriani">
+                                <img src="images/tours/summer-tour-4.jpg" alt="bakuriani">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -562,7 +541,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-sm-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-3-winter.jpg" alt="yazbegi">
+                                <img src="images/tours/summer-tour-3-winter.jpg" alt="yazbegi">
                                 <div class="price price-s-2 green tt">Popular</div>
                             </div>
                             <div class="title">
@@ -584,7 +563,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/summer-tour-5.jpg" alt="svaneti">
+                                <img src="images/tours/summer-tour-5.jpg" alt="svaneti">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -605,7 +584,7 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mt-5 mt-lg-0">
                         <div class="hotel-item style-5">
                             <div class="radius-top">
-                                <img src="images/wine.jpg" alt="winery">
+                                <img src="images/tours/wine.jpg" alt="winery">
                             </div>
                             <div class="title">
                                 <div class="date">July <strong>19th</strong> to July <strong>26th</strong></div>
@@ -638,7 +617,7 @@
                                 consequat.</div>
                             <div class="footer-share">
                                 <a href="#"><span class="fa fa-facebook"></span></a>
-                                <a href="#"><span class="fab fa-youtube"></span></a>
+                                <a href="#"><span class="fa fa-youtube"></span></a>
                             </div>
                         </div>
                     </div>
@@ -647,7 +626,7 @@
                             <h6>Travel News</h6>
                             <div class="f_news clearfix">
                                 <a class="f_news-img black-hover" href="#">
-                                    <img class="img-fluid" src="images/summer-tour-1.jpg" alt="martivili">
+                                    <img class="img-fluid" src="images/tours/summer-tour-1.jpg" alt="martivili">
                                     <div class="tour-layer delay-1"></div>
                                 </a>
                                 <div class="f_news-content">
@@ -658,7 +637,7 @@
                             </div>
                             <div class="f_news clearfix">
                                 <a class="f_news-img black-hover" href="#">
-                                    <img class="img-fluid" src="images/summer-tour-2.jpg" alt="svaneti">
+                                    <img class="img-fluid" src="images/tours/summer-tour-2.jpg" alt="svaneti">
                                     <div class=" tour-layer delay-1"></div>
                                 </a>
                                 <div class="f_news-content">
@@ -669,7 +648,7 @@
                             </div>
                             <div class="f_news clearfix">
                                 <a class="f_news-img black-hover" href="#">
-                                    <img class="img-fluid" src="images/summer-tour-3.jpg" alt="">
+                                    <img class="img-fluid" src="images/tours/summer-tour-3.jpg" alt="">
                                     <div class="tour-layer delay-1"></div>
                                 </a>
                                 <div class="f_news-content">
@@ -730,7 +709,8 @@
                 // The rest above this is hidden
                 $('.slider').slider({
                     fullWidth: true,
-                    duration: 600
+                    duration: 600,
+                    indicators: false
                 });
 
             }); // end of document ready
