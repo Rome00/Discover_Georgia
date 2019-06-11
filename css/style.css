@@ -257,7 +257,7 @@ header .top-bar-positioin {
 }
 
 .navbar-brand {
-  height: 65px;
+  height: 75px;
   margin-right: 60px;
 }
 
@@ -362,13 +362,18 @@ h5 {
 }
 
 .contact-form form {
-  padding: 5px 0;
+  padding: 5px 10px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background: rgba(0, 0, 0, 0.4);
+}
+
+.contact-form form .form-row > h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
 }
 
 .contact-form form label {
@@ -387,6 +392,7 @@ h5 {
 }
 
 .contact-form form button {
+  max-width: 200px;
   background: #4CAF50;
   border: 2px solid #4CAF50;
   -webkit-transition: all 0.3s linear;
@@ -403,6 +409,10 @@ h5 {
 .contact-form form button:hover {
   background: transparent;
   color: #4CAF50;
+}
+
+.contact-form form .form-row input {
+  padding-right: 5px;
 }
 
 #carousel {
@@ -548,6 +558,7 @@ footer.type-2 .footer-link {
 
 .bg-dark.type-2 .logo-footer {
   margin-bottom: 30px;
+  height: 90px;
 }
 
 .detail-title {
@@ -610,23 +621,6 @@ footer.type-2 .footer-link {
 
 .clearfix a {
   display: block;
-}
-
-input:not([type]),
-input[type=text]:not(.browser-default),
-input[type=password]:not(.browser-default),
-input[type=email]:not(.browser-default),
-input[type=url]:not(.browser-default),
-input[type=time]:not(.browser-default),
-input[type=date]:not(.browser-default),
-input[type=datetime]:not(.browser-default),
-input[type=datetime-local]:not(.browser-default),
-input[type=tel]:not(.browser-default),
-input[type=number]:not(.browser-default),
-input[type=search]:not(.browser-default),
-textarea.materialize-textarea {
-  margin: 0 auto;
-  width: 95%;
 }
 
 @media (max-width: 1200px) {
@@ -724,7 +718,6 @@ textarea.materialize-textarea {
 @media (min-width: 768px) {
   .bg-dark.type-2 .logo-footer {
     margin-bottom: 30px;
-    width: 40%;
   }
 }
 

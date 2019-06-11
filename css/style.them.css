@@ -659,7 +659,7 @@ p {
 ul li {
   font-size: 16px;
   line-height: 32px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 ol li {
@@ -739,7 +739,7 @@ strong {
 }
 
 .bg-dr-blue {
-  background: #2d3e50;
+  background: #1593d0;
 }
 
 .bg-blue {
@@ -767,7 +767,7 @@ strong {
 }
 
 .bg-dr-blue-2 {
-  background: #022c54;
+  background: #4CAF50;
 }
 
 .bg-bluejeans {
@@ -1161,7 +1161,7 @@ strong {
   -moz-border-radius: 25px;
   border-radius: 25px;
   background: none;
-  height: 60px;
+  height: 50px;
   padding: 0px 20px 0px 50px;
   color: #fff;
 }
@@ -1447,6 +1447,19 @@ strong {
   font-weight: 700;
 }
 
+.c-button {
+  position: relative;
+  display: inline-block;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 16px 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  font-weight: 700;
+}
+
 .c-button img {
   vertical-align: middle;
   margin-right: 5px;
@@ -1642,12 +1655,12 @@ strong {
 
 .c-button.bg-dr-blue {
   color: #fff;
-  border: 2px solid #2D3E50;
+  border: 2px solid #1593d0;
 }
 
 .c-button.bg-dr-blue-2 {
   color: #fff;
-  border: 2px solid #022C54;
+  border: 2px solid #4CAF50;
 }
 
 .c-button.bg-tr-1 {
@@ -1808,7 +1821,12 @@ strong {
 
 .c-button.hv-dr-blue-o:hover {
   background: transparent;
-  color: #2D3E50;
+  color: #4CAF50;
+}
+
+.c-button.hv-dr-blue-o:hover {
+  background: transparent;
+  color: #4CAF50;
 }
 
 .c-button.hv-dr-blue-2:hover {
@@ -1818,7 +1836,7 @@ strong {
 
 .c-button.hv-dr-blue-2-o:hover {
   background: transparent;
-  color: #022C54;
+  color: #4CAF50;
 }
 
 .c-button.hv-red-3:hover {
@@ -8069,7 +8087,7 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 
 .s_news-entry .tour-info {
   text-transform: none;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .s_news-entry .tour-info:last-child {
@@ -9870,7 +9888,7 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 
 .cp_content.color-3 .active a,
 .cp_content.color-3 a:hover {
-  background: #022c54;
+  background: #4CAF50;
   color: #fff;
 }
 
@@ -10118,7 +10136,7 @@ ul.dot-blue-2 li:before {
   letter-spacing: 1.5px;
   text-transform: uppercase;
   text-align: right;
-  padding-top: 39px;
+  padding-top: 26px;
 }
 
 .detail-price span {
@@ -10191,7 +10209,7 @@ ul.dot-blue-2 li:before {
 
 .detail-content h6,
 .acc-body h6 {
-  font-size: 11px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 13px;
 }
@@ -10218,15 +10236,6 @@ ul.dot-blue-2 li:before {
   font-weight: 400;
   padding-left: 14px;
   margin-bottom: 10px;
-}
-
-.detail-content li:before,
-.acc-body li:before {
-  content: '•';
-  display: inline-block;
-  position: relative;
-  right: -10px;
-  color: #2d3e50;
 }
 
 .detail-content img,
@@ -11733,6 +11742,7 @@ footer {
 .logo-footer {
   margin-top: -7px;
   margin-bottom: 43px;
+  height: 90px;
 }
 
 .footer-block {
@@ -15101,9 +15111,10 @@ header.bg-black-o {
 }
 
 .detail-content ul {
-  width: 50%;
+  width: 100%;
   display: inline-block;
   padding-left: 30px;
+  padding-right: 0px;
 }
 
 .acc-body ul {

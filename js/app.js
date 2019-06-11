@@ -1,15 +1,3 @@
-/* $(document).ready(function () {
-    $(window).scroll(function () {
-
-        console.log(scroll);
-        var Topscroll = $(window).scrollTop();
-        if (Topscroll >= 100) {
-            $('header').addClass('fixed');
-        } else {
-            $('header').removeClass('fixed');
-        }
-    });
-}); */
 
 const header = document.querySelector("header");
 const navBox = document.querySelector("header .navbar-nav");
@@ -24,4 +12,3 @@ burger.addEventListener("click", () => {
         navBox.classList.toggle("open-sm-nav");
     }
 });
-
