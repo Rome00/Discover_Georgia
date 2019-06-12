@@ -101,7 +101,6 @@
     }
   }
 }
-
 .nav-menu-bg {
   background: rgba($Black, $alpha: 0.5);
 }
@@ -282,8 +281,11 @@ h5 {
 
 .title a {
   text-decoration: none;
+  width: 90%;
 }
-
+.btn-sale a{
+ width: auto;
+}
 .m-center {
   display: flex;
   justify-content: center;

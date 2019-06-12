@@ -444,6 +444,11 @@ h5 {
 
 .title a {
   text-decoration: none;
+  width: 90%;
+}
+
+.btn-sale a {
+  width: auto;
 }
 
 .m-center {
@@ -724,10 +729,6 @@ footer.type-2 .footer-link {
 @media (max-width: 767px) {
   .top-bar ul li {
     margin-left: 10px;
-  }
-  .hotel-item .c-button {
-    margin-bottom: 0px;
-    width: 100%;
   }
 }
 
