@@ -734,6 +734,9 @@ strong {
 .bg-dr-blue-2 {
   background: #4CAF50;
 }
+.bg-dr-blue-2:hover, :focus, :active {
+  background: transparent;
+}
 
 .bg-bluejeans {
   background: #5d9cec;
@@ -1627,6 +1630,9 @@ strong {
   color: #fff;
   border: 2px solid #4CAF50;
   cursor: pointer;
+}
+.c-button.bg-dr-blue-2:hover, :active, :focus {
+  color: #4CAF50;
 }
 
 .c-button.bg-tr-1 {
