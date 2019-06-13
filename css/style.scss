@@ -200,7 +200,7 @@ h5 {
   bottom: 0px;
   left: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 99;
   position: absolute;
 
   form {
@@ -374,7 +374,8 @@ footer.type-2 .footer-link {
 
 .bg-dark.type-2 .f_news .f_news-content {
   padding-top: 0px;
-  margin-left: 150px;
+  margin-left: 60px;
+  text-align: left;
 }
 
 .color-green-title {

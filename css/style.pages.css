@@ -146,6 +146,28 @@ header .top-bar-positioin {
   margin-top: 70px;
 }
 
+.news-img {
+  height: 300px;
+}
+
+.detail-content-block h3 {
+  padding: 25px 0 30px 0;
+}
+
+.clearfix a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.c-button.bg-grey-2:hover {
+  background-color: #4CAF50;
+}
+
+.s_news-entry a {
+  text-decoration: none;
+  color: #1593d0;
+}
+
 /* header css */
 .body-wrapper {
   overflow-x: hidden;
@@ -348,11 +370,13 @@ header:after {
   background-image: url('../images/Contact-HD-Wallpaper-17.jpg');
   background-position: center;
 }
-#about_bg{
+
+#about_bg {
   background-image: url('../images/about-us.jpg');
   background-position: center;
 }
-#news_bg{
+
+#news_bg {
   background-image: url('../images/travelnews.png');
   background-position: center center;
 }
@@ -379,52 +403,67 @@ header:after {
   position: absolute;
   bottom: 40px;
   width: 100%;
-  color: #66BB6A;
+  color: #fff;
   font-family: "Oswald", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 0.12rem;
 }
 
 .bg-img .direction span {
-  color: #fff;
-  font-size: 20px;
+  color: #4CAF50;
+  font-size: 16px;
 }
-.about-bg-color{
+.bg-img .direction a {
+  color: #66BB6A;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.about-bg-color {
   background-color: #DCEAF3;
 }
-.about-bg-color::before{
+
+.about-bg-color::before {
   content: "";
   display: block;
   border-top: 1px solid rgba(151, 150, 145, 0.2);
 }
-.about-text h1{
+
+.about-text h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
   color: #4CAF50;
   font-weight: bold;
 }
-.about-text p{
+
+.about-text p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   letter-spacing: 0.05rem;
 }
-.tour-info i{
+
+.tour-info i {
   padding-left: 5px;
   font-size: 14px;
 }
-.fa-umbrella-beach{
+
+.fa-umbrella-beach {
   color: #ff6600;
 }
-.fa-seedling{
+
+.fa-seedling {
   color: #4CAF50;
 }
-.fa-snowflake{
+
+.fa-snowflake {
   color: #1593d0;
 }
-.fa-hiking{
+
+.fa-hiking {
   color: burlywood;
 }
-.fa-calendar-alt{
+
+.fa-calendar-alt {
   color: yellowgreen;
 }
 
@@ -470,6 +509,7 @@ h5 {
   -webkit-box-shadow: 0 1px 0 0 #4CAF50 !important;
   box-shadow: 0 1px 0 0 #4CAF50 !important;
   color: #fff;
+  
 }
 
 .contact-form form button {
@@ -621,13 +661,16 @@ footer.type-2 .footer-link {
 
 .bg-dark.type-2 .f_news .f_news-content {
   padding-top: 0px;
-  margin-left: 150px;
+  margin-left: 60px;
+  text-align: left;
 }
 
 .color-green-title {
   color: #4CAF50;
 }
-
+.price-border{
+  border: 4px double rgba(219, 219, 219, 0.6);
+}
 .color-orange-title {
   color: #ef3c28;
 }
@@ -646,10 +689,11 @@ footer.type-2 .footer-link {
 }
 
 .detail-content .card-header {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   padding: 10px 10px 10px 0;
-  color: #fff;
+  color: #000;
+  font-weight: 500;
 }
 
 .detail-content .card-icon {
@@ -759,9 +803,9 @@ footer.type-2 .footer-link {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
-    top: 97px;
+    top: 124px;
     left: 0%;
-    height: calc(100vh - 98px);
+    height: calc(100vh - 124px);
     width: 45%;
     z-index: 555;
     -webkit-transform: translateX(-100%);

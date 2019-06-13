@@ -1,39 +1,4 @@
-hv-blue-2-o@charset "UTF-8";
-/*STYLE.CSS*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*This is main CSS file that contains custom style rules used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: Lychee.*/
-/* Version: 1.0 Initial Release*/
-/* Build Date: 27-06-2015*/
-/* Author: Unbranded.*/
-/* Website: http://moonart.net.ua/
-/* Copyright: (C) 2015 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*--------------------------------------------------------*/
-/* TABLE OF CONTENTS: */
-/*--------------------------------------------------------*/
-/* 01 - FONTS */
-/* 02 - RESET STYLES */
-/* 03 - LOADING */
-/* 04 - BACKGROUND */
-/* 05 - TEXT STYLE */
-/* 06 - BUTTON STYLE */
-/* 07 - HEADER */
-/* 08 - SWIPER SLIDER */
-/* 09 - HOMEPAGE == 1 */
-/* 10 - TABS PANEL */
-/* 11 - HOMEPAGE == 2 */
-/* 12 - HOMEPAGE == 3 */
-/* 13 - FOOTER */
-/* 14 - FOOTER  BG-WHITE*/
-/* 15 - AJAX LOADER */
-/* MEDIA QUERIES == HOMEPAGE-1 */
-/* MEDIA QUERIES == HOMEPAGE-2 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 01 - FONTS */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
+@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,400italic);
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -1172,8 +1137,8 @@ strong {
 }
 
 .input-style-1.color-2 input {
-  border-color: rgba(219, 219, 219, 0.6);
   color: rgba(34, 34, 34, 0.6);
+  border-color: rgba(219, 219, 219, 0.6);
 }
 
 .input-style-1.color-2 input::-webkit-input-placeholder {
@@ -1314,7 +1279,7 @@ strong {
 }
 
 .input-style-1.type-2 input {
-  padding: 0px 20px 0px 21px;
+  margin: 0px 0px 0px 20px;
 }
 
 .input-style-1.type-2.b-50 input {
@@ -2891,198 +2856,6 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 .search-icon span:hover {
   opacity: 0.6;
 }
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 08 - VIDEO */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-.video-click {
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-.det-img .video-click {
-  padding-top: 0px;
-}
-
-.video-click.vsplay {
-  padding-top: 0px;
-}
-
-.video-click a {
-  display: block;
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.video {
-  float: none;
-  clear: both;
-  width: 100%;
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0;
-  display: none;
-}
-
-.video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.video .close {
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  top: 20px;
-  right: 53px;
-  z-index: 5;
-}
-
-.play {
-  position: relative;
-  float: none;
-  display: block;
-  width: 70px;
-  height: 70px;
-  margin: 0 auto 40px;
-  cursor: pointer;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-}
-
-.play:hover {
-  -o-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-}
-
-.close-v {
-  position: absolute;
-  left: 20px;
-  top: 8px;
-  cursor: pointer;
-}
-
-.video img {
-  width: 20px;
-  height: 20px;
-}
-
-.video-title {
-  position: absolute;
-  bottom: 15px;
-  text-align: center;
-  left: 0px;
-  width: 100%;
-}
-
-.video-click.style-2 img {
-  margin-bottom: 0px;
-}
-
-.video-click.style-2 .video-title {
-  bottom: 50%;
-  margin-bottom: -35px;
-}
-
-.video-click.style-2 .play {
-  margin: 0 auto 0px;
-}
-
-.video-click.style-2 iframe {
-  height: 100% !important;
-}
-
-.video-open {
-  position: relative;
-  text-align: center;
-}
-
-.item-block .video-open img {
-  width: 70px;
-  height: 70px;
-  cursor: pointer;
-  margin: 0px auto;
-  display: block;
-  position: relative;
-}
-
-.video-player {
-  -moz-transition: all 1000ms ease-out;
-  -o-transition: all 1000ms ease-out;
-  -webkit-transition: all 1000ms ease-out;
-  transition: all 1000ms ease-out;
-  -ms-transition: all 1000ms ease-out;
-}
-
-.video-player {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 1);
-  z-index: 1000;
-  transform: scale(0);
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  visibility: hidden;
-}
-
-.video-player.active {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  visibility: visible;
-}
-
-.video-iframe {
-  position: absolute;
-  left: 50px;
-  top: 50px;
-  right: 50px;
-  bottom: 50px;
-}
-
-.video-iframe iframe {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.video-player .close-iframe {
-  color: #FF9700;
-  font-family: 'bold', sans-serif, Arial;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  left: auto;
-  cursor: pointer;
-  text-align: center;
-}
-
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 08 - SWIPER SLIDER */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 09 - MAIN-TITLE */
@@ -10958,7 +10731,7 @@ ul.dot-blue-2 li:before {
 
 .comments-block .comment-reply {
   position: absolute;
-  top: 27px;
+  top: 22px;
   right: 30px;
 }
 
@@ -12137,11 +11910,10 @@ footer.type-2 .copyright {
 .f_news .f_news-img {
   display: block;
   width: 86px;
-  float: left;
+  float: right;
 }
 
 .f_news .f_news-content {
-  margin-left: 104px;
   padding-top: 9px;
 }
 
@@ -16601,7 +16373,6 @@ header.menu-3.hovered nav .dropmenu a>span {
 
 .bg-dark.type-2 .f_news .f_news-content {
   padding-top: 0px;
-  margin-left: 120px;
 }
 
 .bg-dark.type-2 .f_news .f_news-tilte {
