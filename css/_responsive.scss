@@ -87,4 +87,20 @@
     .top-bar ul li {
         margin-left: 10px;
     }
+    .navbar-brand{
+        margin-right: 0;
+    }
+    #carousel {
+        margin-top: -158px;
+        position: relative;
+        .slider {
+            position: relative;
+            height: 820px;
+            width: 100%;
+          }
+        .slider .slides li .caption{
+            top: 24%;
+        }
+      }
+      
 }

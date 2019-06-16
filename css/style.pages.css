@@ -413,6 +413,7 @@ header:after {
   color: #4CAF50;
   font-size: 16px;
 }
+
 .bg-img .direction a {
   color: #66BB6A;
   text-decoration: none;
@@ -509,7 +510,7 @@ h5 {
   -webkit-box-shadow: 0 1px 0 0 #4CAF50 !important;
   box-shadow: 0 1px 0 0 #4CAF50 !important;
   color: #fff;
-  
+
 }
 
 .contact-form form button {
@@ -524,6 +525,35 @@ h5 {
   -webkit-box-shadow: none;
   box-shadow: none;
   text-transform: capitalize;
+}
+
+.news-img-box {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.news-img-box img {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+}
+
+.news-img-detail{
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.news-img-detail img {
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
 }
 
 .contact-form form button:hover {
@@ -668,9 +698,11 @@ footer.type-2 .footer-link {
 .color-green-title {
   color: #4CAF50;
 }
-.price-border{
+
+.price-border {
   border: 4px double rgba(219, 219, 219, 0.6);
 }
+
 .color-orange-title {
   color: #ef3c28;
 }

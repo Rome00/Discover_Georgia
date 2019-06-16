@@ -378,6 +378,7 @@ h5 {
 
 .contact-form form label {
   margin-right: 10px;
+  font-size: 12px;
 }
 
 .contact-form form .form-row input {
@@ -731,6 +732,21 @@ footer.type-2 .footer-link {
 @media (max-width: 767px) {
   .top-bar ul li {
     margin-left: 10px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+  }
+  #carousel {
+    margin-top: -158px;
+    position: relative;
+  }
+  #carousel .slider {
+    position: relative;
+    height: 820px;
+    width: 100%;
+  }
+  #carousel .slider .slides li .caption {
+    top: 24%;
   }
 }
 

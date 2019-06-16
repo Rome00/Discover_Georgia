@@ -5364,13 +5364,33 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 .radius-top {
   position: relative;
   width: 100%;
+  height: 143px;
   -moz-border-radius-topleft: 5px;
   border-top-left-radius: 5px;
   -moz-border-radius-topright: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
 }
+.radius-top-sale {
+  position: relative;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
+.radius-top-sale img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .radius-top img {
   width: 100%;
   height: auto;
@@ -7858,6 +7878,7 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 
 .s_news-entry .s_news-title {
   margin-bottom: 15px;
+  margin-top: 15px;
   font-weight: 700;
 }
 

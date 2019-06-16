@@ -101,6 +101,7 @@
     }
   }
 }
+
 .nav-menu-bg {
   background: rgba($Black, $alpha: 0.5);
 }
@@ -217,6 +218,7 @@ h5 {
 
     label {
       margin-right: 10px;
+      font-size: 12px;
     }
 
     .form-row input {
@@ -283,9 +285,11 @@ h5 {
   text-decoration: none;
   width: 90%;
 }
-.btn-sale a{
- width: auto;
+
+.btn-sale a {
+  width: auto;
 }
+
 .m-center {
   display: flex;
   justify-content: center;
