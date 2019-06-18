@@ -835,9 +835,9 @@ footer.type-2 .footer-link {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
-    top: 124px;
+    top: 127px;
     left: 0%;
-    height: calc(100vh - 124px);
+    height: calc(100vh - 127px);
     width: 45%;
     z-index: 555;
     -webkit-transform: translateX(-100%);
@@ -897,8 +897,8 @@ footer.type-2 .footer-link {
   nav .navbar-nav {
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
-    top: 74px;
-    height: calc(100vh - 74px);
+    top: 159px;
+    height: calc(100vh - 159px);
     -webkit-clip-path: circle(5px at 10% -15%);
     clip-path: circle(5px at 10% -15%);
     width: 100%;

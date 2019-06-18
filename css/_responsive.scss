@@ -16,9 +16,9 @@
         display: flex;
         justify-content: space-around;
         position: absolute;
-        top: 124px;
+        top: 127px;
         left: 0%;
-        height: calc(100vh - 124px);
+        height: calc(100vh - 127px);
         width: 45%;
         z-index: 555;
         transform: translateX(-100%);
@@ -64,8 +64,8 @@
 @media screen and (max-width: 576px) {
     nav .navbar-nav {
         transform: translateX(0%);
-        top: 150px;
-        height: calc(100vh - 150px);
+        top: 159px;
+        height: calc(100vh - 159px);
         clip-path: circle(5px at 10% -15%);
         width: 100%;
         z-index: 99999;
