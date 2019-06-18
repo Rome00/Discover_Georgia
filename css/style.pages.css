@@ -754,7 +754,10 @@ footer.type-2 .footer-link {
   height: auto;
   width: 100%;
 }
-
+.bg-dark.type-2 .logo-footer {
+  margin-bottom: 30px;
+  width: 40%;
+}
 .galerry {
   background: #000;
   margin: 0;
@@ -910,13 +913,6 @@ footer.type-2 .footer-link {
   nav .open-sm-nav {
     -webkit-clip-path: circle(2000px at 10% -15%);
     clip-path: circle(2000px at 10% -15%);
-  }
-}
-
-@media (min-width: 768px) {
-  .bg-dark.type-2 .logo-footer {
-    margin-bottom: 30px;
-    width: 40%;
   }
 }
 

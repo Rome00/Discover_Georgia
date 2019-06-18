@@ -549,6 +549,10 @@ footer.type-2 .footer-link {
   width: 110px;
 }
 
+.bg-dark.type-2 .logo-footer {
+  margin-bottom: 30px;
+}
+
 .bg-dark.type-2 .f_news .f_news-content {
   padding-top: 0px;
   margin-left: 60px;
@@ -720,12 +724,6 @@ footer.type-2 .footer-link {
   nav .open-sm-nav {
     -webkit-clip-path: circle(2000px at 10% -15%);
             clip-path: circle(2000px at 10% -15%);
-  }
-}
-
-@media (min-width: 768px) {
-  .bg-dark.type-2 .logo-footer {
-    margin-bottom: 30px;
   }
 }
 
