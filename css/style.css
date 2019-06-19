@@ -746,6 +746,9 @@ footer.type-2 .footer-link {
   #carousel .slider .slides li .caption {
     top: 24%;
   }
+  .btn-sale a {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes wobble-vertical {
