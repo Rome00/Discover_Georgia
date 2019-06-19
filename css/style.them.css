@@ -5373,7 +5373,7 @@ nav li.type-4 .dropmenu .fa-chevron-right {
 }
 .radius-top-sale {
   position: relative;
-  height: 350px;
+  max-height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
