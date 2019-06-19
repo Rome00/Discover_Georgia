@@ -1631,7 +1631,7 @@ strong {
   border: 2px solid #4CAF50;
   cursor: pointer;
 }
-.c-button.bg-dr-blue-2:hover, :active, :focus {
+.c-button.bg-dr-blue-2:hover, :focus {
   color: #4CAF50;
 }
 
@@ -18637,10 +18637,6 @@ body[data-color="theme-1"] .footer-form input[type="submit"]:hover {
 }
 
 body[data-color="theme-1"] .tour-block.tour-block-s-1:hover h3 {
-  color: #ff6600;
-}
-
-body[data-color="theme-1"] header.color-4 nav>ul>li:hover>a {
   color: #ff6600;
 }
 
