@@ -12,4 +12,5 @@ burger.addEventListener("click", () => {
         navBox.classList.toggle("open-sm-nav");
     }
 });
+links
 

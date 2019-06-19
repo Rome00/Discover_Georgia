@@ -914,6 +914,9 @@ footer.type-2 .footer-link {
     -webkit-clip-path: circle(2000px at 10% -15%);
     clip-path: circle(2000px at 10% -15%);
   }
+  .bg-img {
+    margin-top: -160px;
+  }
 }
 
 @media (max-width: 767px) {
